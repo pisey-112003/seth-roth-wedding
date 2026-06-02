@@ -1,0 +1,63 @@
+<div class="relative w-full min-h-screen flex justify-center">
+
+    <!-- Background -->
+    <img 
+        src="/assets/img/2.CR3" 
+        class="w-full max-w-md md:max-w-3xl lg:max-w-md h-screen object-cover object-center "
+    >
+
+    <div class="absolute inset-0 bg-black/15 z-0"></div>
+
+    <!-- Overlay Content -->
+    <div class="absolute inset-0 z-10 flex flex-col py-12 px-4 text-center animate-fadeIn">
+
+        <h1 class="text-[28px] md:text-[40px] lg:text-[32px] text-[#dfab24] text-shadow-lg/30 animate-popIn">
+            សិរីមង្គលអាពាហ៍ពិពាហ៍
+        </h1>
+
+        <div class="px-10 py-20 lg:px-10 lg:py-20 md:px-40 md:py-60 text-white text-shadow-lg/30 animate-slideUp">
+            <p class="text-3xl md:text-5xl lg:text-3xl mb-4 text-start">សិទ្ធិ</p> 
+            <p class="text-lg md:text-xl lg:text-lg mb-4">និង</p>
+            <p class="text-3xl md:text-5xl lg:text-3xl text-end">ស្រីរ័ត្ន</p>
+        </div>
+
+    </div>
+
+    <!-- Content -->
+    <div class="text-center absolute md:bottom-26 bottom-20 z-50 flex flex-col animate-slideUp"> 
+
+        <h1 class="text-[16px] md:text-[20px] lg:text-[16px] mb-2 text-[#dfab24] text-shadow-lg/30">
+            សូមគោរពអញ្ជើញ
+        </h1> 
+
+        <div class="bg-[url('/assets/img/frame.PNG')] bg-no-repeat bg-contain bg-center w-full h-15 md:h-20 lg:h-15 relative animate-popIn">
+            <p class="text-[#dfab24] text-shadow-lg/30 text-[14px] md:text-[18px] lg:text-[16px]
+                      absolute inset-0 flex justify-center items-center">
+                ហាសហា
+            </p>
+        </div>
+
+        <p class="text-white text-[13px] md:text-[16px] lg:text-[13px] mt-2 leading-6 md:leading-8 text-shadow-lg/30">
+            ថ្ងៃ អាទិត្យ ទី ២១ ខែ មិថុនា ឆ្នាំ ២០២៦ <br>
+            វេលាម៉ោង ៤:00 រសៀល នៅ គេហដ្ឋានខាងស្រី <br>
+            ភូមិសូភី ឃុំសំបូរ ស្រុករមាសហែក <br> ខេត្តស្វាយរៀង
+        </p>
+    </div> 
+
+    <!-- next button -->
+    <a 
+        routerLink="/detail"
+        class="absolute lg:bottom-6 md:bottom-4 bottom-2 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center cursor-pointer"
+    >
+        <p class="text-[#e3c26d] text-[12px] md:text-[14px] lg:text-[12px] mb-2 drop-shadow-lg animate-fadeIn">
+            ចាប់ផ្តើម
+        </p>
+
+        <img 
+            src="/assets/icon/play.png"
+            alt="play"
+            class="w-8 h-8 md:w-10 md:h-10 lg:h-8 lg:w-8 animate-bounceGlow"
+        >
+    </a>
+
+</div>

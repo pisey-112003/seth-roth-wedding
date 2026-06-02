@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss';
+
+body{
+    font-family: Moul;
+    margin: 0 auto;
+}
+
+.content{
+  font-family: "Taprom", system-ui;
+}
+
+.content1{
+  font-family: "Kantumruy Pro", system-ui;
+}
+
+.content2{
+  font-family: "Freehand", system-ui;
+}
+
+.title{
+    font-family: "Moulpali", system-ui;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
